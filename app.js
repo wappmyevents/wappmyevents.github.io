@@ -19,3 +19,17 @@ function callFt_ftProcSaludoMsg(msg){
         window.ftProcSaludo(msg);
     }
 }
+
+function callFt_ftProcPonTipoOpWAppMyEventsExtra(sTipOpc){
+    if(window.callFt_ftProcPonTipoOpWAppMyEventsExtra){
+        window.callFt_ftProcPonTipoOpWAppMyEventsExtra(sTipOpc);
+    }
+}
+
+function callFt_ftProcPonImgSel(imgDatsBytes){
+    if(window.callFt_ftProcPonImgSel){
+        window.callFt_ftProcPonImgSel(imgDatsBytes);
+    }
+}
+
+
