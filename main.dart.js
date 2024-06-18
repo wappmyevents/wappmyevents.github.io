@@ -25992,7 +25992,7 @@ return A.N(a.r.Go(),$async$aoA)
 case 2:q=c
 p=a.r.c
 p===$&&A.a()
-A.afD(B.DE,"Img_Cargada_"+A.i(B.b.gN(p.split("/"))),q)
+A.afD(B.DE,"https://wappmyevents.github.io/Img_Cargada_"+A.i(B.b.gN(p.split("/"))),q)
 return A.I(null,r)}})
 return A.J($async$aoA,r)},
 rY:function rY(a){this.a=a},
