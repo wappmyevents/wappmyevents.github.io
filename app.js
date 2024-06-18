@@ -13,3 +13,9 @@ function callFt_ftProcSaludo(){
         window.ftProcSaludo("Saludo llamado desde JS ");
     }
 }
+
+function callFt_ftProcSaludoMsg(msg){
+    if(window.ftProcSaludo){
+        window.ftProcSaludo(msg);
+    }
+}
