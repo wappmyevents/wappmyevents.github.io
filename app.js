@@ -1,21 +1,15 @@
-function procSumar(a = 0, b = 0) {
+function jsProcSumar(a = 0, b = 0) {
 
     return a + b;
 }
 
-function procSaludo(texto) {
+function jsProcSaludo(texto) {
     window.alert(texto);
 }
 
-let imagenEdit;
-function cargarImagen(img) {
-    imagenEdit = img;
-}
-
-function descargarImagen() {
-    return imagenEdit;
-}
-
-function obtenerImagen() {
-    return imagenEdit;
+//funcion para llamar al funcion de Dart
+function callFt_ftProcSaludo(){
+    if(window.ftProcSaludo){
+        window.ftProcSaludo("Saludo llamado desde JS ");
+    }
 }
