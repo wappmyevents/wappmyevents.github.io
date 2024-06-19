@@ -20,16 +20,8 @@ function callFt_ftProcSaludoMsg(msg){
     }
 }
 
-function callFt_ftProcPonTipoOpWAppMyEventsExtra(sTipOpc){
-    if(window.ftProcPonTipoOpWAppMyEventsExtra){
-        window.ftProcPonTipoOpWAppMyEventsExtra(sTipOpc);
+function callFt_ftProcEnvDats(dats){
+    if(window.ftProcEnvDats){
+        window.ftProcEnvDats(dats);
     }
 }
-
-function callFt_ftProcPonImgSel(imgDatsBytes){
-    if(window.ftProcPonImgSel){
-        window.ftProcPonImgSel(imgDatsBytes);
-    }
-}
-
-
